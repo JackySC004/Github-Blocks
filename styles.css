@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #ba2929;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    overflow: hidden; 
+}
+
+#row1, #row3 {
+    background-color: #091c24;
+}
+
+#row2 {
+    background-color: rgb(255, 255, 255);
+}
+
+.block {
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+    max-width: 200px; 
+}
+
+.octocat {
+    height: 200px;
+    max-width: 100%; 
+    object-fit: contain;
+}
+
+p {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 20px;
+}
+
+
